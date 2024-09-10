@@ -4,6 +4,14 @@
 import workplace from '@/public/workplace.webp';
 import greenCluster from '@/public/dense-green-cluster.png';
 
+// recoil
+import { useRecoilState } from 'recoil';
+import { isFormOpenState } from '../_state/atoms';
+
+// fillout
+import { FilloutPopupEmbed } from '@fillout/react';
+import '@fillout/react/style.css';
+
 // chakra-ui
 import {
   Box,
@@ -23,8 +31,15 @@ import {
 } from 'lucide-react';
 
 export default function Home() {
+  const [isFormOpen, setIsFormOpen] = useRecoilState(isFormOpenState);
   return (
     <Box>
+      {isFormOpen && (
+        <FilloutPopupEmbed
+          filloutId='dfM5q7usNHus'
+          onClose={() => setIsFormOpen(false)}
+        />
+      )}
       {/* Hero */}
       <Box
         p={{ base: '1rem', md: '3rem' }}
@@ -133,7 +148,9 @@ export default function Home() {
               <Text>Redline & Refine</Text>
             </Flex>
           </Box>
-          <Button colorScheme={'orange'}>Partner with us</Button>
+          <Button colorScheme={'orange'} onClick={() => setIsFormOpen(true)}>
+            Partner with us
+          </Button>
         </Box>
         <Box
           bg={`url(${workplace.src})`}
@@ -201,7 +218,9 @@ export default function Home() {
               have an idea you&apos;d like to explore, we&apos;d love to hear
               from
             </Text>
-            <Button colorScheme={'orange'}>Get in touch</Button>
+            <Button colorScheme={'orange'} onClick={() => setIsFormOpen(true)}>
+              Get in touch
+            </Button>
           </Box>
         </VStack>
         <Image

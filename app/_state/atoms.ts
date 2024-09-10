@@ -8,6 +8,11 @@ export const isloadingState = atom({
 });
 
 // form atoms
+export const isFormOpenState = atom({
+  key: 'isFormOpenState',
+  default: false,
+});
+
 export const successState = atom({
   key: 'successState',
   default: false,

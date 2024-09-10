@@ -10,7 +10,7 @@ import Footer from './_navigation/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 const APP_NAME = 'Redline Labs';
-const APP_DEFAULT_TITLE = 'Redline Labs – Testing Unmet Needs';
+const APP_DEFAULT_TITLE = 'Redline Labs – Validating Unmet Needs';
 const APP_TITLE_TEMPLATE = '%s – Redline Labs';
 const APP_DESCRIPTION =
   'Redline pressure tests unmet needs for potential spinout opportunities, the rest get redlined.';

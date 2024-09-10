@@ -1532,6 +1532,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fillout/react@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@fillout/react@npm:1.1.2"
+  checksum: 10c0/905d08254e54afe1b841eb3e75e004147acd1c7307308f36284a88742bdea7627309fea5b3d7bc0f39c199d1c66e42cad16ff1e290a70a2e65f18e685cd6115f
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/module-importer@npm:^1.0.1":
   version: 1.0.1
   resolution: "@humanwhocodes/module-importer@npm:1.0.1"
@@ -4406,6 +4413,7 @@ __metadata:
     "@chakra-ui/react": "npm:^2.8.2"
     "@emotion/react": "npm:^11.13.3"
     "@emotion/styled": "npm:^11.13.0"
+    "@fillout/react": "npm:^1.1.2"
     "@types/node": "npm:^22.5.1"
     "@types/react": "npm:^18.3.4"
     "@types/react-dom": "npm:^18.3.0"
