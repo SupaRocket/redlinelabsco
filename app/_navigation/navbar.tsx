@@ -22,9 +22,6 @@ export default function Navbar() {
     setIsClient(true);
   }, []);
 
-  const bg = useColorModeValue('transparent', 'transparent');
-  const borderColor = useColorModeValue('orange.700', 'orange.900');
-
   return (
     <>
       <Box
@@ -33,28 +30,18 @@ export default function Navbar() {
         h={'fit-content'}
         top={'0'}
         w={'100%'}
+        borderBottom={'1px solid'}
+        borderColor={'gray.500'}
       >
-        <Flex
-          zIndex={1000}
-          background={bg}
-          backdropFilter={'blur(5px) saturate(100%)'}
-          w={'100%'}
-          p={'1rem'}
-        >
+        <Flex zIndex={1000} background={'white'} w={'100%'} p={'1rem'}>
           <Flex w={'100%'} align={'center'} justify={{ base: 'space-between' }}>
             <Logo />
             {!isClient ? (
               <Button isLoading={true}></Button>
             ) : isMobile ? (
-              <>
-                {/* <MobileNav /> */}
-                <ColorModeToggle />
-              </>
+              <>{/* <MobileNav /> */}</>
             ) : (
-              <>
-                {/* <DesktopNav /> */}
-                <ColorModeToggle />
-              </>
+              <>{/* <DesktopNav /> */}</>
             )}
           </Flex>
         </Flex>

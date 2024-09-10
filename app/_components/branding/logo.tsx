@@ -1,22 +1,13 @@
 'use client';
 
 // chakra-ui
-import {
-  Flex,
-  Heading,
-  Link,
-  Box,
-  useColorModeValue,
-  Image,
-} from '@chakra-ui/react';
+import { Flex, Link, Box, Image, Heading } from '@chakra-ui/react';
 
 // local components
 import redlineCircle from '@/public/redline-circle.png';
 
 export default function Logo({ shouldLink = true }) {
   const text = 'Redline Labs';
-  const color = useColorModeValue('orange.700', 'orange.100');
-
   return (
     <>
       {shouldLink ? (
@@ -27,25 +18,23 @@ export default function Logo({ shouldLink = true }) {
           _hover={{ textDecoration: 'none' }}
           textDecoration={'none'}
         >
-          <LogoContent color={color} text={text} />
+          <LogoContent text={text} />
         </Link>
       ) : (
-        <LogoContent color={color} text={text} />
+        <LogoContent text={text} />
       )}
     </>
   );
 }
 
-export const LogoContent = ({ color, text, p }) => {
-  const bg = useColorModeValue('orange.300', 'orange.900');
-
+export const LogoContent = ({ text }: { text: string }) => {
   return (
     <Flex
       maxW={'fit-content'}
       minW={'fit-content'}
       borderRadius={'1rem'}
       _hover={{
-        bg: bg,
+        bg: 'orange.200',
       }}
       align={'center'}
       p={'0.3rem 0.75rem 0.3rem 0.3rem'}

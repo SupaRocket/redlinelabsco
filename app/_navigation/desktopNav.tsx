@@ -11,7 +11,9 @@ export default function DesktopNavbar() {
     <Flex align={'center'} gap={'1rem'}>
       <Flex fontSize={'0.9rem'}></Flex>
       <Link maxW={'fit-content'} href={'/commissions'}>
-        <Button colorScheme={'purple'} size={'sm'}></Button>
+        <Button bg={'black'} color={'white'} size={'sm'}>
+          Partner with us
+        </Button>
       </Link>
     </Flex>
   );
