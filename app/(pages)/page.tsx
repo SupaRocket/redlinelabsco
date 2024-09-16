@@ -43,8 +43,8 @@ export default function Home() {
       {/* Hero */}
       <Box
         p={{ base: '1rem', md: '3rem' }}
-        pt={{ base: '8rem', md: '15rem' }}
-        minH={{ base: '75vh', md: '85vh' }}
+        pt={{ base: '8rem', md: '16rem' }}
+        minH={{ base: '75vh', md: '75vh' }}
         borderBottom={'1px solid'}
         borderColor={'gray.500'}
         bg={'gray.50'}
@@ -52,7 +52,7 @@ export default function Home() {
         <Flex
           align={'flex-end'}
           gap={'0.5rem'}
-          justify={'center'}
+          justify={'flex-start'}
           w={'100%'}
           direction={{ base: 'column', md: 'row' }}
         >
@@ -61,6 +61,7 @@ export default function Home() {
             fontWeight={500}
             lineHeight={1}
             mb={{ base: '1rem', md: '0' }}
+            maxW={{ base: '100%', md: '1000px' }}
           >
             <Highlight
               query={'High-Growth Startups'}
@@ -70,7 +71,11 @@ export default function Home() {
             </Highlight>
           </Heading>
           <Box>
-            <Text fontSize={'1.1rem'}>
+            <Text
+              fontSize={'1.1rem'}
+              maxW={{ base: '100%', md: '300px' }}
+              minW={{ base: '250px' }}
+            >
               We pressure-test the best ideas and spin them out as thriving
               ventures.
             </Text>
