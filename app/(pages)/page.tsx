@@ -3,7 +3,6 @@
 // images
 import workplace from '@/public/workplace.webp';
 import rocket from '@/public/rocket.webp';
-import greenCluster from '@/public/dense-green-cluster.png';
 
 // recoil
 import { useRecoilState } from 'recoil';
@@ -19,7 +18,6 @@ import {
   Flex,
   Heading,
   Highlight,
-  Image,
   Text,
   Button,
   VStack,
