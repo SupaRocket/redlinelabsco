@@ -42,9 +42,8 @@ export default function Home() {
       )}
       {/* Hero */}
       <Box
-        p={{ base: '1rem', md: '3rem' }}
         pt={{ base: '8rem', md: '16rem' }}
-        minH={{ base: '75vh', md: '65vh' }}
+        minH={{ base: '50vh', md: '65vh' }}
         borderBottom={'1px solid'}
         borderColor={'gray.500'}
         bg={'gray.50'}
@@ -58,7 +57,7 @@ export default function Home() {
             direction={{ base: 'column', md: 'row' }}
           >
             <Heading
-              fontSize={{ base: '3.5rem', md: '5rem' }}
+              fontSize={{ base: '3rem', md: '5rem' }}
               fontWeight={500}
               lineHeight={1}
               mb={{ base: '1rem', md: '0' }}
@@ -73,7 +72,7 @@ export default function Home() {
             </Heading>
             <Box>
               <Text
-                fontSize={'1.4rem'}
+                fontSize={{ base: '1.1rem', md: '1.4rem' }}
                 maxW={{ base: '100%', md: '300px' }}
                 minW={{ base: '250px' }}
               >
@@ -165,8 +164,8 @@ export default function Home() {
             bgPos={'center'}
             w={{ base: '100%', md: '45vw' }}
             maxW={{ base: '100%', md: '680px' }}
-            h={{ base: '200px', md: '45vw' }}
-            maxH={{ base: '200px', md: '680px' }}
+            h={{ base: '90vw', md: '45vw' }}
+            maxH={{ base: '90vw', md: '680px' }}
             borderRadius={'0.5rem'}
           />
         </Flex>
@@ -175,7 +174,7 @@ export default function Home() {
       {/* Studio Model */}
       <Container maxW={'1500px'}>
         <Box
-          p={{ base: '2rem 1rem', md: '3rem 0 0 0' }}
+          p={{ base: '2rem 0', md: '3rem 0 0 0' }}
           mt={{ base: '2rem', md: 0 }}
         >
           <Flex
@@ -183,7 +182,7 @@ export default function Home() {
             borderColor={'gray.500'}
             justify={'space-between'}
             align={'center'}
-            p={{ base: '3rem 0' }}
+            p={{ base: '2rem 0', md: '3rem 0' }}
             gap={'2rem'}
           >
             <Flex
@@ -216,7 +215,7 @@ export default function Home() {
         borderColor={'gray.500'}
         bgSize={'cover'}
         bgPos={'center'}
-        p={{ base: '3rem 1rem', md: '5rem 3rem' }}
+        p={{ base: '3rem 0', md: '5rem 3rem' }}
       >
         <Container maxW={'1500px'}>
           <Flex
@@ -230,7 +229,7 @@ export default function Home() {
             >
               <Box></Box>
               <Box>
-                <Heading size={'4xl'} fontWeight={500} mb={'1rem'}>
+                <Heading size={'3xl'} fontWeight={500} mb={'1rem'}>
                   Partner With Redline
                 </Heading>
                 <Text mb={'3rem'}>
@@ -252,9 +251,10 @@ export default function Home() {
               bgPos={'center'}
               w={{ base: '100%', md: '35vw' }}
               maxW={{ base: '100%', md: '500px' }}
-              h={{ base: '200px', md: '35vw' }}
-              maxH={{ base: '200px', md: '500px' }}
+              h={{ base: '80vw', md: '35vw' }}
+              maxH={{ base: '80vw', md: '500px' }}
               borderRadius={'0.5rem'}
+              mb={{ base: '1rem', md: 0 }}
             />
           </Flex>
         </Container>
