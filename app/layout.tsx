@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
@@ -42,9 +41,7 @@ export const metadata: Metadata = {
       template: APP_TITLE_TEMPLATE,
     },
     description: APP_DESCRIPTION,
-    images: [
-      'https://cdn.midjourney.com/aad85ee6-c0de-4d91-baab-0effc5257b81/0_0.png',
-    ],
+    images: ['https://redlinelabs.co/_next/static/media/rocket.089e48a6.webp'],
   },
 };
 
