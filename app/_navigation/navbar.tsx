@@ -1,4 +1,5 @@
 'use client';
+import React from 'react';
 
 // hooks
 import { useEffect, useState } from 'react';

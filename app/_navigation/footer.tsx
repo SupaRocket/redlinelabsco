@@ -21,7 +21,6 @@ export default function Footer() {
   const altColor = useColorModeValue('orange.700', 'orange.300');
 
   return (
-    <>
       <footer>
         <Box
           background={'gray.300'}
@@ -65,6 +64,5 @@ export default function Footer() {
           </Flex>
         </Box>
       </footer>
-    </>
   );
 }
