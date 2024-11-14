@@ -166,7 +166,7 @@ export default function Home() {
             maxW={{ base: '100%', md: '680px' }}
             h={{ base: '90vw', md: '45vw' }}
             maxH={{ base: '90vw', md: '680px' }}
-            borderRadius={'0.5rem'}
+            borderRadius={'0.25rem'}
           />
         </Flex>
       </Container>
@@ -253,7 +253,7 @@ export default function Home() {
               maxW={{ base: '100%', md: '500px' }}
               h={{ base: '80vw', md: '35vw' }}
               maxH={{ base: '80vw', md: '500px' }}
-              borderRadius={'0.5rem'}
+              borderRadius={'0.25rem'}
               mb={{ base: '1rem', md: 0 }}
             />
           </Flex>
