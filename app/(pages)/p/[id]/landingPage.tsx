@@ -24,7 +24,7 @@ export default function LandingPage({ id }: { id: string }) {
   return (
     <Box>
       {/* Hero */}
-      <Box pt={{ base: '2rem', md: '2rem' }}>
+      <Box pt={{ base: '5rem', md: '2rem' }}>
         <Flex
           align={'center'}
           gap={'0.5rem'}
@@ -35,9 +35,9 @@ export default function LandingPage({ id }: { id: string }) {
           borderBottom={'1px solid'}
           borderColor={'gray.500'}
         >
-          <Box maxW={'550px'} p={'3rem'}>
+          <Box maxW={'550px'} p={{ base: '2rem', md: '3rem' }}>
             <Heading
-              fontSize={{ base: '2.5rem' }}
+              fontSize={{ base: '2rem', md: '2.5rem' }}
               fontWeight={500}
               mb={{ base: '1rem' }}
               maxW={{ base: '100%' }}
@@ -57,6 +57,7 @@ export default function LandingPage({ id }: { id: string }) {
             bgSize={'cover'}
             bgPos={'center top'}
             h={{ base: '50vh', md: '70vh' }}
+            w={'100%'}
             borderLeft={'1px solid'}
             borderColor={'gray.500'}
             flexGrow={1}
@@ -72,12 +73,12 @@ export default function LandingPage({ id }: { id: string }) {
       )}
 
       {/* The Redline Method */}
-      <Container maxW={'1500px'} p={'6rem'}>
+      <Container maxW={'1500px'} p={{ base: '2rem', md: '6rem' }}>
         <Flex
           w={'100%'}
           justify={'space-between'}
           gap={'2rem'}
-          direction={{ base: 'column-reverse', md: 'row' }}
+          direction={{ base: 'column', md: 'row' }}
         >
           <Box maxW={'450px'}>
             <Heading mb={'1.5rem'} size={'xl'} fontWeight={500}>
