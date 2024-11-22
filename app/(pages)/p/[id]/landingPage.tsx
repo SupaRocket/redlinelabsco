@@ -31,11 +31,11 @@ export default function LandingPage({ id }: { id: string }) {
           justify={'space-between'}
           w={'100%'}
           direction={{ base: 'column', md: 'row' }}
-          minH={{ base: '50vh', md: '55vh' }}
+          minH={{ base: '50vh', md: '65vh' }}
           borderBottom={'1px solid'}
           borderColor={'gray.500'}
         >
-          <Box maxW={'550px'} p={{ base: '2rem', md: '3rem' }}>
+          <Box maxW={'600px'} p={{ base: '2rem', md: '5rem' }}>
             <Heading
               fontSize={{ base: '2rem', md: '2.5rem' }}
               fontWeight={500}
@@ -56,7 +56,7 @@ export default function LandingPage({ id }: { id: string }) {
             bg={`url(${landingPage.image})`}
             bgSize={'cover'}
             bgPos={'center top'}
-            h={{ base: '50vh', md: '70vh' }}
+            h={{ base: '50vh', md: '80vh' }}
             w={'100%'}
             borderLeft={'1px solid'}
             borderColor={'gray.500'}

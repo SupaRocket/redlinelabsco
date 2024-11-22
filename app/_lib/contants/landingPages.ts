@@ -1,9 +1,9 @@
 export const landingPages = {
-  '5jkfHoMm1ius': {
+  dAjE1FJQ5aus: {
     headline: 'Easily Earn Carbon Credits From Regenerative Agriculture',
     cta: { text: 'Apply for early access.', button: 'Apply Now' },
     image: '/handshake.webp',
-    hasForm: false,
+    hasForm: true,
     emailCollectionId: 'mgFPvh7pjSus',
     bulletSection: {
       title:
@@ -27,7 +27,7 @@ export const landingPages = {
     },
     hasForm: true,
     emailCollectionId: 'kVtbDAtgzXus',
-    image: '/marketing-agency.jpg',
+    image: '/keynote.webp',
     bulletSection: {
       title:
         'Gain proof of customer interest to fuel your growth and funding efforts!',
@@ -39,7 +39,7 @@ export const landingPages = {
         'Funding Efforts',
         'Traction Toolkit',
       ],
-      image: '/people-meeting.jpg',
+      image: '/presentation-1.webp',
     },
   },
   wzSsVYcti3us: {
