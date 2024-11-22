@@ -1,11 +1,22 @@
 'use client';
 
+// images
+import acc from '@/public/acc.png';
+
 // fillout
 import { FilloutStandardEmbed } from '@fillout/react';
 import '@fillout/react/style.css';
 
 // chakra-ui
-import { Box, Flex, Heading, Text, Button, Container } from '@chakra-ui/react';
+import {
+  Box,
+  Flex,
+  Heading,
+  Text,
+  Button,
+  Container,
+  Image,
+} from '@chakra-ui/react';
 import {
   BadgeDollarSign,
   FastForward,
@@ -16,7 +27,7 @@ import {
 // constants
 import { landingPages } from '@/app/_lib/contants/landingPages';
 
-export default function LandingPage({ id }: { id: string }) {
+export default function AgricarbonConnect({ id }: { id: string }) {
   const landingPage = landingPages[id as keyof typeof landingPages];
   if (typeof landingPage === 'undefined') {
     throw new Error('Landing page not found');
@@ -63,6 +74,11 @@ export default function LandingPage({ id }: { id: string }) {
             flexGrow={1}
           />
         </Flex>
+      </Box>
+
+      {/* Image */}
+      <Box borderBottom={'1px solid'} borderColor={'gray.500'}>
+        <Image src={acc.src} alt={'AgriCarbon Connect'} w={'100%'} h={'auto'} />
       </Box>
 
       {/* Form Embed */}

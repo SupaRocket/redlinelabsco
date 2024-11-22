@@ -1,20 +1,19 @@
 export const landingPages = {
-  '5jkfHoMm1ius': {
-    headline: 'Easily Earn Carbon Credits From Regenerative Agriculture',
-    cta: { text: 'Apply for early access.', button: 'Apply Now' },
+  dAjE1FJQ5aus: {
+    headline: 'Small Farms, Big Impact: Earn More with Carbon Credits',
+    cta: { text: 'Learn More About Carbon Credits.', button: 'Apply Now' },
     image: '/handshake.webp',
-    hasForm: false,
+    hasForm: true,
     emailCollectionId: 'mgFPvh7pjSus',
     bulletSection: {
-      title:
-        'Together, Small-Scale Farmers Can Harvest Big Gains from Carbon Credits!',
+      title: "What's in it for you?",
       description:
-        'Small-scale farmers can join forces to earn more from carbon credits. Discover how sustainability can drive new revenue for your farm. Curious? Learn how farmers are tapping into this growing market.',
+        'AgriCarbon Connect is a community-driven platform designed to help small-scale farmers access the carbon credit market. By collaborating with other farmers and adopting regenerative practices, you can turn sustainable farming into a new source of income while positively impacting the environment.',
       points: [
-        'Increased Revenue',
-        'Sustainable Farming',
-        'Carbon Credits',
-        'Regenerative Agriculture',
+        'New Revenue Opportunities',
+        'Simplified Process',
+        'Collaborative Approach',
+        'Environmental Impact',
       ],
       image: '/aerial.webp',
     },
@@ -27,7 +26,7 @@ export const landingPages = {
     },
     hasForm: true,
     emailCollectionId: 'kVtbDAtgzXus',
-    image: '/marketing-agency.jpg',
+    image: '/keynote.webp',
     bulletSection: {
       title:
         'Gain proof of customer interest to fuel your growth and funding efforts!',
@@ -39,7 +38,7 @@ export const landingPages = {
         'Funding Efforts',
         'Traction Toolkit',
       ],
-      image: '/people-meeting.jpg',
+      image: '/presentation-1.webp',
     },
   },
   wzSsVYcti3us: {
