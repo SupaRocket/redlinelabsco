@@ -130,9 +130,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chakra-ui/next-js@npm:^2.4.3":
-  version: 2.4.3
-  resolution: "@chakra-ui/next-js@npm:2.4.3"
+"@chakra-ui/next-js@npm:2.4.2":
+  version: 2.4.2
+  resolution: "@chakra-ui/next-js@npm:2.4.2"
   dependencies:
     "@emotion/cache": "npm:^11.11.0"
   peerDependencies:
@@ -140,7 +140,7 @@ __metadata:
     "@emotion/react": ">=11"
     next: ">=13"
     react: ">=18"
-  checksum: 10c0/49e49726fcdc3df1e8c7a0ee620b4d1ca89f7b5918dbdf6051329295866e501d257300e3f556229a05b958424f86f09ccf60d7d305a252dc34ba159b875830f7
+  checksum: 10c0/86bb4aa43500635dd8350c40ad5250e41c190be42ddff72cc6fcd061eb69eb15c5337ae55be80b7522f4d99e549e9b793ea5a7bbafc1276f4a046024fea0b2f8
   languageName: node
   linkType: hard
 
@@ -280,7 +280,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:^11.13.5":
+"@emotion/react@npm:^11.14.0":
   version: 11.14.0
   resolution: "@emotion/react@npm:11.14.0"
   dependencies:
@@ -321,7 +321,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/styled@npm:^11.13.5":
+"@emotion/styled@npm:^11.14.0":
   version: 11.14.0
   resolution: "@emotion/styled@npm:11.14.0"
   dependencies:
@@ -711,81 +711,81 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:14.2.18":
-  version: 14.2.18
-  resolution: "@next/env@npm:14.2.18"
-  checksum: 10c0/b075fb54873de7cd977b4e07af186af60251e71ea6a905445c4fc14f076e46e3f9b51f489e1363c946c8807388cfc834dd7bf96a3257d5ba4d4ffa94610c96e7
+"@next/env@npm:14.2.20":
+  version: 14.2.20
+  resolution: "@next/env@npm:14.2.20"
+  checksum: 10c0/cb3a99a2cd21209b4f267e1fe2c22d2a206827cb2f636d31da342d05913a327209ed4425e185d9458ba76dc2f613290fd0488bbc4ced43ce7f094b1e12fdf835
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:15.0.3":
-  version: 15.0.3
-  resolution: "@next/eslint-plugin-next@npm:15.0.3"
+"@next/eslint-plugin-next@npm:15.1.0":
+  version: 15.1.0
+  resolution: "@next/eslint-plugin-next@npm:15.1.0"
   dependencies:
     fast-glob: "npm:3.3.1"
-  checksum: 10c0/59d024d129e472aa32fb841a1906d3ab3d3a7252a9fdfc93e3ac5a2436397d16f53f16ed0ec6c7006f912571854e52492612c0d4493c440c84dba5cea67e95d9
+  checksum: 10c0/d20c396d9c298523e31b4402d126e28d536cfa151bc6a9a9da3e74bddd5770547c76d5fbda59fe4332ffaea3af1e7f489b2358336cb2f921d3561577a0f4cd1a
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:14.2.18":
-  version: 14.2.18
-  resolution: "@next/swc-darwin-arm64@npm:14.2.18"
+"@next/swc-darwin-arm64@npm:14.2.20":
+  version: 14.2.20
+  resolution: "@next/swc-darwin-arm64@npm:14.2.20"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:14.2.18":
-  version: 14.2.18
-  resolution: "@next/swc-darwin-x64@npm:14.2.18"
+"@next/swc-darwin-x64@npm:14.2.20":
+  version: 14.2.20
+  resolution: "@next/swc-darwin-x64@npm:14.2.20"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:14.2.18":
-  version: 14.2.18
-  resolution: "@next/swc-linux-arm64-gnu@npm:14.2.18"
+"@next/swc-linux-arm64-gnu@npm:14.2.20":
+  version: 14.2.20
+  resolution: "@next/swc-linux-arm64-gnu@npm:14.2.20"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:14.2.18":
-  version: 14.2.18
-  resolution: "@next/swc-linux-arm64-musl@npm:14.2.18"
+"@next/swc-linux-arm64-musl@npm:14.2.20":
+  version: 14.2.20
+  resolution: "@next/swc-linux-arm64-musl@npm:14.2.20"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:14.2.18":
-  version: 14.2.18
-  resolution: "@next/swc-linux-x64-gnu@npm:14.2.18"
+"@next/swc-linux-x64-gnu@npm:14.2.20":
+  version: 14.2.20
+  resolution: "@next/swc-linux-x64-gnu@npm:14.2.20"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:14.2.18":
-  version: 14.2.18
-  resolution: "@next/swc-linux-x64-musl@npm:14.2.18"
+"@next/swc-linux-x64-musl@npm:14.2.20":
+  version: 14.2.20
+  resolution: "@next/swc-linux-x64-musl@npm:14.2.20"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:14.2.18":
-  version: 14.2.18
-  resolution: "@next/swc-win32-arm64-msvc@npm:14.2.18"
+"@next/swc-win32-arm64-msvc@npm:14.2.20":
+  version: 14.2.20
+  resolution: "@next/swc-win32-arm64-msvc@npm:14.2.20"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-ia32-msvc@npm:14.2.18":
-  version: 14.2.18
-  resolution: "@next/swc-win32-ia32-msvc@npm:14.2.18"
+"@next/swc-win32-ia32-msvc@npm:14.2.20":
+  version: 14.2.20
+  resolution: "@next/swc-win32-ia32-msvc@npm:14.2.20"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:14.2.18":
-  version: 14.2.18
-  resolution: "@next/swc-win32-x64-msvc@npm:14.2.18"
+"@next/swc-win32-x64-msvc@npm:14.2.20":
+  version: 14.2.20
+  resolution: "@next/swc-win32-x64-msvc@npm:14.2.20"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -938,7 +938,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^22.9.3":
+"@types/node@npm:*, @types/node@npm:^22.10.2":
   version: 22.10.2
   resolution: "@types/node@npm:22.10.2"
   dependencies:
@@ -961,7 +961,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.3.1":
+"@types/react-dom@npm:^18.3.5":
   version: 18.3.5
   resolution: "@types/react-dom@npm:18.3.5"
   peerDependencies:
@@ -970,7 +970,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.3.12":
+"@types/react@npm:^18.3.16":
   version: 18.3.16
   resolution: "@types/react@npm:18.3.16"
   dependencies:
@@ -1838,11 +1838,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:15.0.3":
-  version: 15.0.3
-  resolution: "eslint-config-next@npm:15.0.3"
+"eslint-config-next@npm:15.1.0":
+  version: 15.1.0
+  resolution: "eslint-config-next@npm:15.1.0"
   dependencies:
-    "@next/eslint-plugin-next": "npm:15.0.3"
+    "@next/eslint-plugin-next": "npm:15.1.0"
     "@rushstack/eslint-patch": "npm:^1.10.3"
     "@typescript-eslint/eslint-plugin": "npm:^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
     "@typescript-eslint/parser": "npm:^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
@@ -1850,7 +1850,7 @@ __metadata:
     eslint-import-resolver-typescript: "npm:^3.5.2"
     eslint-plugin-import: "npm:^2.31.0"
     eslint-plugin-jsx-a11y: "npm:^6.10.0"
-    eslint-plugin-react: "npm:^7.35.0"
+    eslint-plugin-react: "npm:^7.37.0"
     eslint-plugin-react-hooks: "npm:^5.0.0"
   peerDependencies:
     eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
@@ -1858,7 +1858,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/2081c7843cbfd3199a45213670472d7781b1d627699b74d93824c1996ca7bc3bb3df7a808043101666579d756a9f93ac1cd9fb86c9d87da375f3dd5132d53fe2
+  checksum: 10c0/53f244e49964bb6bfd89d5b6978b5c1650f927c913f7c6d8f251fc2528a9fbae04e5a6371c9856886b0b1e008c23f6aba1e1270537f8cb97c5306288052c0a1d
   languageName: node
   linkType: hard
 
@@ -1973,7 +1973,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.35.0":
+"eslint-plugin-react@npm:^7.37.0":
   version: 7.37.2
   resolution: "eslint-plugin-react@npm:7.37.2"
   dependencies:
@@ -2025,7 +2025,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^9.15.0":
+"eslint@npm:^9.16.0":
   version: 9.16.0
   resolution: "eslint@npm:9.16.0"
   dependencies:
@@ -2254,7 +2254,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^11.11.17":
+"framer-motion@npm:^11.14.4":
   version: 11.14.4
   resolution: "framer-motion@npm:11.14.4"
   dependencies:
@@ -2965,12 +2965,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.460.0":
-  version: 0.460.0
-  resolution: "lucide-react@npm:0.460.0"
+"lucide-react@npm:^0.468.0":
+  version: 0.468.0
+  resolution: "lucide-react@npm:0.468.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
-  checksum: 10c0/7f54cbc1ab88276f79cfb8c3ac440de9db013d76e386abc68deda4b04ea51e826f1ad5df22983619b970adff7430d892d4e990dbdf6eceb7243eb2e9a2762704
+  checksum: 10c0/da7640e4ad09d8987716e9124fd85c4a0c49b7658dbbf45db64547fc0f155f7e8b2d7f68115ada3e24012f3e1a4f209d7a87762ba4de5ca3dd753f6b68d8e622
   languageName: node
   linkType: hard
 
@@ -3076,20 +3076,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:14.2.18":
-  version: 14.2.18
-  resolution: "next@npm:14.2.18"
+"next@npm:14.2.20":
+  version: 14.2.20
+  resolution: "next@npm:14.2.20"
   dependencies:
-    "@next/env": "npm:14.2.18"
-    "@next/swc-darwin-arm64": "npm:14.2.18"
-    "@next/swc-darwin-x64": "npm:14.2.18"
-    "@next/swc-linux-arm64-gnu": "npm:14.2.18"
-    "@next/swc-linux-arm64-musl": "npm:14.2.18"
-    "@next/swc-linux-x64-gnu": "npm:14.2.18"
-    "@next/swc-linux-x64-musl": "npm:14.2.18"
-    "@next/swc-win32-arm64-msvc": "npm:14.2.18"
-    "@next/swc-win32-ia32-msvc": "npm:14.2.18"
-    "@next/swc-win32-x64-msvc": "npm:14.2.18"
+    "@next/env": "npm:14.2.20"
+    "@next/swc-darwin-arm64": "npm:14.2.20"
+    "@next/swc-darwin-x64": "npm:14.2.20"
+    "@next/swc-linux-arm64-gnu": "npm:14.2.20"
+    "@next/swc-linux-arm64-musl": "npm:14.2.20"
+    "@next/swc-linux-x64-gnu": "npm:14.2.20"
+    "@next/swc-linux-x64-musl": "npm:14.2.20"
+    "@next/swc-win32-arm64-msvc": "npm:14.2.20"
+    "@next/swc-win32-ia32-msvc": "npm:14.2.20"
+    "@next/swc-win32-x64-msvc": "npm:14.2.20"
     "@swc/helpers": "npm:0.5.5"
     busboy: "npm:1.6.0"
     caniuse-lite: "npm:^1.0.30001579"
@@ -3130,7 +3130,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 10c0/9aa1cf6a3238735a80fae32c217b0312dcb46c12ab9da19855c1344d7256ca797b286b78902c4d6488e7eb806e53c5bb21521cec38f793fb74f17513e2382838
+  checksum: 10c0/a2e214762cbe43c6f6e8a9b29d32916ac3121363d1e2c5b54074fccd9b2dd4e017ce9cf086d956661fedc3266fc8e9bd30f8caab5cef6d1f244609ed8d86ce1e
   languageName: node
   linkType: hard
 
@@ -3509,21 +3509,21 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "redlinelabsco@workspace:."
   dependencies:
-    "@chakra-ui/next-js": "npm:^2.4.3"
+    "@chakra-ui/next-js": "npm:2.4.2"
     "@chakra-ui/react": "npm:^2.10.4"
-    "@emotion/react": "npm:^11.13.5"
-    "@emotion/styled": "npm:^11.13.5"
+    "@emotion/react": "npm:^11.14.0"
+    "@emotion/styled": "npm:^11.14.0"
     "@fillout/react": "npm:^1.1.2"
     "@notionhq/client": "npm:^2.2.15"
     "@typeform/embed-react": "npm:^4.2.0"
-    "@types/node": "npm:^22.9.3"
-    "@types/react": "npm:^18.3.12"
-    "@types/react-dom": "npm:^18.3.1"
-    eslint: "npm:^9.15.0"
-    eslint-config-next: "npm:15.0.3"
-    framer-motion: "npm:^11.11.17"
-    lucide-react: "npm:^0.460.0"
-    next: "npm:14.2.18"
+    "@types/node": "npm:^22.10.2"
+    "@types/react": "npm:^18.3.16"
+    "@types/react-dom": "npm:^18.3.5"
+    eslint: "npm:^9.16.0"
+    eslint-config-next: "npm:15.1.0"
+    framer-motion: "npm:^11.14.4"
+    lucide-react: "npm:^0.468.0"
+    next: "npm:14.2.20"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
     recoil: "npm:^0.7.7"
