@@ -961,7 +961,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.3.5":
+"@types/react-dom@npm:18":
   version: 18.3.5
   resolution: "@types/react-dom@npm:18.3.5"
   peerDependencies:
@@ -970,7 +970,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.3.16":
+"@types/react@npm:18":
   version: 18.3.16
   resolution: "@types/react@npm:18.3.16"
   dependencies:
@@ -3382,7 +3382,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^18.3.1":
+"react-dom@npm:18":
   version: 18.3.1
   resolution: "react-dom@npm:18.3.1"
   dependencies:
@@ -3480,7 +3480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^18.3.1":
+"react@npm:18":
   version: 18.3.1
   resolution: "react@npm:18.3.1"
   dependencies:
@@ -3517,15 +3517,15 @@ __metadata:
     "@notionhq/client": "npm:^2.2.15"
     "@typeform/embed-react": "npm:^4.2.0"
     "@types/node": "npm:^22.10.2"
-    "@types/react": "npm:^18.3.16"
-    "@types/react-dom": "npm:^18.3.5"
+    "@types/react": "npm:18"
+    "@types/react-dom": "npm:18"
     eslint: "npm:^9.16.0"
     eslint-config-next: "npm:15.1.0"
     framer-motion: "npm:^11.14.4"
     lucide-react: "npm:^0.468.0"
     next: "npm:14.2.20"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
+    react: "npm:18"
+    react-dom: "npm:18"
     recoil: "npm:^0.7.7"
     sharp: "npm:^0.33.5"
     typescript: "npm:^5.7.2"
