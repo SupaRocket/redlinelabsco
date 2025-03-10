@@ -4,65 +4,72 @@
 import {
   Flex,
   Box,
-  Heading,
   Text,
   Stack,
-  Highlight,
   useColorModeValue,
-  Image,
+  Heading,
 } from '@chakra-ui/react';
-import redlineCircle from '@/public/redline-circle.png';
 import Logo from '../_components/branding/logo';
 
+import { usePathname } from 'next/navigation';
+
 export default function Footer() {
-  const bg = useColorModeValue('orange.100', 'gray.700');
-  const bgAlt = useColorModeValue('white', 'gray.800');
+  const pathname = usePathname();
   const color = useColorModeValue('gray.900', 'gray.200');
-  const altColor = useColorModeValue('orange.700', 'orange.300');
 
   return (
-      <footer>
-        <Box
-          background={'gray.300'}
-          borderTop={'1px solid'}
-          borderColor={'gray.500'}
+    <footer>
+      <Box
+        background={!pathname.includes('valid-sync') ? 'gray.300' : 'gray.100'}
+        borderTop={'1px solid'}
+        borderColor={'gray.500'}
+      >
+        <Flex
+          flexDirection={{ base: 'column', md: 'row' }}
+          p={{ base: '4rem 2rem 2rem 2rem', md: '7rem 2rem 5rem 2rem' }}
         >
-          <Flex
-            flexDirection={{ base: 'column', md: 'row' }}
-            p={{ base: '4rem 2rem 2rem 2rem', md: '7rem 2rem 5rem 2rem' }}
-          >
-            <Stack maxW={'25rem'} gap={'1rem'}>
-              <Box>
-                <Flex
-                  maxW={'fit-content'}
-                  minW={'fit-content'}
-                  color={color}
-                  align={'center'}
-                >
+          <Stack maxW={'25rem'} gap={'1rem'}>
+            <Box>
+              <Flex
+                maxW={'fit-content'}
+                minW={'fit-content'}
+                color={color}
+                align={'center'}
+              >
+                {!pathname.includes('valid-sync') ? (
                   <Logo shouldLink={false} />
-                </Flex>
-              </Box>
+                ) : (
+                  <Heading size={'md'}>ValidSync</Heading>
+                )}
+              </Flex>
+            </Box>
+            {!pathname.includes('valid-sync') ? (
               <Text>
                 We pressure test unmet needs for potential spinout
                 opportunities, the rest get redlined.
               </Text>
-            </Stack>
-          </Flex>
-          <Flex
-            w={'100%'}
-            background={'gray.300'}
-            justify={'center'}
-            flexDirection={'column'}
-            textAlign={'center'}
-            p={'1rem 1rem 0.5rem 1rem'}
-            borderTop={'1px solid'}
-            borderColor={'gray.500'}
-          >
-            <Text fontSize={'0.8rem'}>
-              © 2024 Redline Labs, All Rights reserved
-            </Text>
-          </Flex>
-        </Box>
-      </footer>
+            ) : (
+              <Text>Streamlining vendor compliance for modern businesses.</Text>
+            )}
+          </Stack>
+        </Flex>
+        <Flex
+          w={'100%'}
+          background={
+            !pathname.includes('valid-sync') ? 'gray.300' : 'gray.100'
+          }
+          justify={'center'}
+          flexDirection={'column'}
+          textAlign={'center'}
+          p={'1rem 1rem 0.5rem 1rem'}
+          borderTop={'1px solid'}
+          borderColor={'gray.500'}
+        >
+          <Text fontSize={'0.8rem'}>
+            © 2024 Redline Labs, All Rights reserved
+          </Text>
+        </Flex>
+      </Box>
+    </footer>
   );
 }
