@@ -33,4 +33,8 @@ yarn-error.log*
 next-env.d.ts
 
 # pipedream
+<<<<<<< HEAD
 /_pipedream
+=======
+_pipedream/*
+>>>>>>> main
