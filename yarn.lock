@@ -872,22 +872,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typeform/embed-react@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "@typeform/embed-react@npm:4.2.0"
+"@typeform/embed-react@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "@typeform/embed-react@npm:4.3.0"
   dependencies:
-    "@typeform/embed": "npm:5.2.0"
+    "@typeform/embed": "npm:5.3.0"
     fast-deep-equal: "npm:^3.1.3"
   peerDependencies:
     react: ">=16.8.0"
-  checksum: 10c0/b426fb3af49726e54c641fd6601061b17062135a6218af665341aaf9e6762b62d33380fe959a0ddacf369e9c53a7d8c632a2b80b0a76d2ead8b07a477362a726
+  checksum: 10c0/9f2f9411dd4f34c336315b52fc9a43c58278d16b3307be5c1f230016f00e8a864288fbea8b3c9325098242a4cd25a7a93565c32ed97798df72d1059221943beb
   languageName: node
   linkType: hard
 
-"@typeform/embed@npm:5.2.0":
-  version: 5.2.0
-  resolution: "@typeform/embed@npm:5.2.0"
-  checksum: 10c0/e285cf6ecb548d46211fee6925aed4148246d8a86708792e6c358eb2be2f36bd4d3fed7739fb0b08a2e2cd6becd27829bfe19ead04d8422afda4e5d791c9c707
+"@typeform/embed@npm:5.3.0":
+  version: 5.3.0
+  resolution: "@typeform/embed@npm:5.3.0"
+  checksum: 10c0/9244d4b51107a4338d7b599cc2ad94403f464e22e91c75fe608b2aa561ddfeb1b41fd84516d632b1b97df5bcc4c79e96237b5ab569bfe49cfbb3cace02ec349e
   languageName: node
   linkType: hard
 
@@ -3515,7 +3515,7 @@ __metadata:
     "@emotion/styled": "npm:^11.14.0"
     "@fillout/react": "npm:^1.1.2"
     "@notionhq/client": "npm:^2.2.15"
-    "@typeform/embed-react": "npm:^4.2.0"
+    "@typeform/embed-react": "npm:^4.3.0"
     "@types/node": "npm:^22.10.2"
     "@types/react": "npm:18"
     "@types/react-dom": "npm:18"
